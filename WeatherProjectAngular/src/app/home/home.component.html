@@ -1,0 +1,93 @@
+
+<h1>Current Weather Data</h1>
+<h1>Tbilisi</h1>
+<table class="tb">
+  <tr>
+    <th>feels_like</th>
+    <th>humidity</th>
+    <th>pressure</th>
+    <th>temp</th>
+    <th>temp_max</th>
+    <th>temp_min</th>
+  </tr>
+  <tr class="tbtr"
+  *ngFor="let i of arr">
+    <td>{{i.feels_like}}</td>
+    <td>{{i.humidity}}</td>
+    <td>{{i.pressure}}</td>
+    <td>{{i.temp}}</td>
+    <td>{{i.temp_max}}</td>
+    <td>{{i.temp_min}}</td>
+  </tr>
+</table>
+<table class="tb">
+  <tr>
+    <th>base</th>
+    <th>cod</th>
+    <th>name</th>
+    <th>dt</th>
+    <th>id</th>
+    <th>timezone</th>
+    <th>visibility</th>
+  </tr>
+  <tr class="tbtr1"
+  *ngFor="let i of arr1">
+    <td>{{i.base}}</td>
+    <td>{{i.cod}}</td>
+    <td>{{i.name}}</td>
+    <td>{{i.dt}}</td>
+    <td>{{i.id}}</td>
+    <td>{{i.timezone}}</td>
+    <td>{{i.visibility}}</td>
+  </tr>
+</table>
+<table class="tb">
+  <tr>
+    <th>description</th>
+    <th>icon</th>
+    <th>main</th>
+  </tr>
+  <tr class="tbtr2"
+  *ngFor="let i of arr2">
+    <td>{{i.description}}</td>
+    <td>{{i.icon}}</td>
+    <td>{{i.main}}</td>
+  </tr>
+</table>
+<table class="tb">
+  <tr>
+    <th>lon</th>
+    <th>lat</th>
+  </tr>
+  <tr class="tbtr3"
+  *ngFor="let i of arr3">
+    <td>{{i.lon}}</td>
+    <td>{{i.lat}}</td>
+  </tr>
+</table>
+<table class="tb">
+  <tr>
+    <th>country</th>
+    <th>id</th>
+    <th>sunrise</th>
+    <th>sunset</th>
+  </tr>
+  <tr class="tbtr4"
+  *ngFor="let i of arr4">
+    <td>{{i.country}}</td>
+    <td>{{i.id}}</td>
+    <td>{{i.sunrise}}</td>
+    <td>{{i.sunset}}</td>
+  </tr>
+</table>
+<table class="tb">
+  <tr>
+    <th>speed</th>
+    <th>deg</th>
+  </tr>
+  <tr class="tbtr5"
+  *ngFor="let i of arr5">
+    <td>{{i.speed}}</td>
+    <td>{{i.deg}}</td>
+  </tr>
+</table>
